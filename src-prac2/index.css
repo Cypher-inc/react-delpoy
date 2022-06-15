@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* color: aliceblue !important; */
+
+}
+
+.content{
+  /* margin-left: auto;
+  margin-right: auto;
+  width: 70% !important; */
+  /* margin-left: 10% !important;
+  margin-right: 10% !important; */
+} 
+
+.main{
+  justify-content: center !important;
+  width: 80% !important;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+}

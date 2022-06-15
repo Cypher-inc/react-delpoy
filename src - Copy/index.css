@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  color: whitesmoke;
+  /* color: black; */
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(
+    to left,
+    #292e49,
+    #536976
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.glassEffect {
+  width: 60% !important;
+  margin-left: 20% !important;
+  margin-right: 20% !important;
+  margin-top: 4%;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(183, 178, 178, 0.1) 0px 7px 29px 0px;
+  animation: zoomIn;
+  animation-duration: 0.5s;
+  transition: all 1s ease;
+}
+
+/* ul p {
+  display: inline !important;
+} */
+
+/* ///////////media queries///////// */
+
+@media (max-width: 991.98px) {
+  .glassEffect {
+    width: 80% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .glassEffect {
+    width: 95% !important;
+    margin-left: 2.5% !important;
+    margin-right: 2.5% !important;
+  }
+}

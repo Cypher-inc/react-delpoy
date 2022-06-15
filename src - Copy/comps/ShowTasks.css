@@ -1,0 +1,95 @@
+ul {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 25px;
+
+  /* border-bottom: 1px solid black; */
+  margin-bottom: 0px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+.taskItem {
+  background-color: rgb(5, 5, 5, 0.35);
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  border-radius: 40px;
+  padding-left: 0px !important;
+  padding-right: 0px;
+}
+
+.taskItem:hover {
+  /* background-color: rgb(13, 110, 253) */
+  background-color: rgb(5, 5, 5, 0.55);
+  /* border: 1px solid rgb(0, 0, 0, 0.5); */
+}
+
+.btn1 {
+  border-radius: 50% !important;
+}
+
+/* .suc {
+    background-color: #adff9e !important;
+  } */
+.suc:hover {
+  background-color: #26ff00 !important;
+}
+
+.del {
+  background-color: rgb(220, 53, 69, 0.6) !important;
+}
+
+.del:hover {
+  background-color: #ff2626 !important;
+}
+
+.rowFade {
+  opacity: 0.4;
+}
+.pFade {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+.fadeOut {
+  animation: fadeOut; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.5s;
+}
+.displayCon {
+  width: 60% !important;
+  margin-left: 20% !important;
+  margin-right: 20% !important;
+  border-radius: 10px !important;
+  transition: all 1s ease;
+}
+
+.text-p {
+  justify-items: center !important;
+  margin-bottom: 0px !important;
+}
+
+ul.bg-light,
+ul.bg-secondary,
+.loadingP {
+  border-radius: 50px;
+  color: black;
+  border-radius: 50px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 575.98px) {
+  .displayCon {
+    width: 70% !important;
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+  }
+  h1 {
+    font-size: 10vw;
+  }
+
+  .btn1 {
+    font-size: 0.4em !important;
+  }
+  .text-p {
+    font-size: 0.7em !important;
+  }
+}

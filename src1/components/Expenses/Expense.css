@@ -1,0 +1,13 @@
+
+.expenseItem1{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 1% 2% 2% 2%;
+    background-color: #195774;
+    border: 1px solid #0e3c52;
+    /* border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
+
+}

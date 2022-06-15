@@ -1,0 +1,41 @@
+.content {
+  /* padding-left: 15% !important; */
+  /* padding-right: 15% !important; */
+  justify-content: center !important;
+}
+
+.orderList {
+  border-radius: 10px;
+  color: black;
+  width: 120vh;
+  /* margin-left: 50%; */
+}
+
+.flex2 {
+  flex-direction: row-reverse !important;
+}
+
+p {
+  margin-bottom: 0px !important;
+}
+
+.desc {
+  font-style: italic;
+}
+
+.cost {
+  font-weight: 800;
+  color: rgb(175, 82, 82);
+}
+
+.QuantityInput {
+  margin-left: 8px;
+  width: 5vh;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.btn-row {
+  margin-left: 5px;
+  margin-right: 5px;
+}

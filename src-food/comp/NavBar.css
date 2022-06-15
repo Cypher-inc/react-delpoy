@@ -1,0 +1,17 @@
+
+.d-flex button{
+    border-radius: 50px !important;
+}
+
+span.cart-val{
+    background-color: aliceblue;
+    color: black;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
